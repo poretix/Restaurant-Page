@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'shadows_into_lightregular';
+    src: url('./fonts/shadowsintolight-regular-webfont.woff2') format('woff2'),
+         url('./fonts/shadowsintolight-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'solitreoregular';
+    src: url('./fonts/solitreo-regular-webfont.woff2') format('woff2'),
+         url('./fonts/solitreo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 2rem;
+    background-color: rgba(255, 218, 185, 1);
+}
+
+.headerButton {
+    border-radius: .25rem;
+    width: 5rem;
+    height: 2rem;
+    background-color: transparent;
+    border: none;
+    font-family: 'solitreoregular';
+    font-size: 2rem;
+}
+
+.mainBody {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-size: 100% 100%;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 50rem;
+    height: 100%;
+    background-color: rgba(255, 218, 185, 1);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.subheading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    padding-top: 4rem;
+    gap: 2rem;
+}
+
+.homeTitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.title {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 151, 142);
+    border: 5px solid rgb(240, 128, 128);
+    width: 80%;
+    height: 5rem;
+    gap: 2rem;
+    font-family: 'shadows_into_lightregular';
+}
+
+.subtitle { 
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 151, 142);
+    border: 5px solid rgb(240, 128, 128);
+    width: 70%;
+    height: 3rem;
+    gap: 2rem;
+    padding: 1rem;
+    font-family: 'shadows_into_lightregular';
+}
+
+.crabImage, .wheelImage {
+    width: 3rem;
+    height: 3rem;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+    gap: 1rem;
+    height: 100%
+}
+
+.descriptionBox {
+    width: 50%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(244, 151, 142);
+    border: 5px solid rgb(240, 128, 128);
+    padding: 3rem;
+    font-family: 'solitreoregular';
+    font-size: 1.1rem;
+}
+
+.subinformation {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgb(244, 151, 142);
+    border: 5px solid rgb(240, 128, 128);
+    padding: 3rem;
+    font-family: 'solitreoregular';
+}
+
+.menuTitle {
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.menuImage {
+    width: 80%;
+    height: 15rem;
+    border-radius: .5rem;
+    border: 3px solid rgb(240, 128, 128);
+}
+.menuPrice {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.menuStats {
+    display: flex;
+    justify-content: space-between;
+}
